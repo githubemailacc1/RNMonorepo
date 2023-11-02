@@ -182,10 +182,6 @@ cmake-build-*/
 # Mongo Explorer plugin
 .idea/**/mongoSettings.xml
 
-# Yalc
-.yalc/
-yalc.lock
-
 # Yarn
 .yarn/*
 !.yarn/patches
