@@ -1,9 +1,11 @@
 {
+  "name": "my-monorepo",
+  "version": "1.0.0",
+  "private": false,
   "workspaces": [
     "packages/*"
   ],
   "installConfig": {
     "hoistingLimits": "dependencies"
-  },
-  "packageManager": "yarn@4.0.1"
+  }
 }
