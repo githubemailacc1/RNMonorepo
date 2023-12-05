@@ -16,6 +16,8 @@ install_dependencies() {
   fi
 }
 
+echo "Waiting for 5 seconds before starting..."
+sleep 5
 
 # Attempt to install dependencies after ensuring Yarn is available
 install_dependencies
